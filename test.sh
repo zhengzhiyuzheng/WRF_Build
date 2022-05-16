@@ -111,7 +111,7 @@ IFS_OLD=$IFS
 IFS=$'\n'
 for line in $(<"envir")
 do
-	echo $line >> 666
+	echo $line >> ~/.bashrc
 done
 IFS=IFS_OLD
 source ~/.bashrc
